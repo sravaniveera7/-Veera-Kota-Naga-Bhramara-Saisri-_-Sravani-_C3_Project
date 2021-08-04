@@ -66,7 +66,6 @@ public class Restaurant {
     public String getName() {
         return name;
     }
-
     public double orderValue(List<Item> listOfItems){
         double sumOfOrder = 0;
 
@@ -75,5 +74,6 @@ public class Restaurant {
         }
         return sumOfOrder;
     }
+
 
 }
